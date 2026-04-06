@@ -97,7 +97,7 @@ export default function Home() {
             REAL-TIME NETWORK ACTIVITY
           </p>
 
-          <div className="red-glow-border hud-corners p-1 bg-black/50 overflow-hidden">
+          <div className="red-glow-border hud-corners p-1 bg-black/50">
             <iframe
               src={`https://dexscreener.com/solana/${PAIR_ADDRESS}?embed=1&theme=dark&info=0`}
               className="w-full h-[500px] border-0"
