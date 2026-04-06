@@ -6,6 +6,7 @@ import TypewriterText from "./components/TypewriterText";
 const CA = "AR6Sy3h6hzFxLjNFUNuE5YApgEci6gj1eAANU24cknAV";
 const PUMP_URL = `https://pump.fun/coin/${CA}`;
 const TWITTER_URL = "https://x.com/skyabortsol";
+const PAIR_ADDRESS = "AwHwzsQRhhagEttkHpp46QKJeRP71sAhzHg3aJNqPkc8";
 const DEXSCREENER_URL = `https://dexscreener.com/solana/${CA}`;
 
 export default function Home() {
@@ -98,7 +99,7 @@ export default function Home() {
 
           <div className="red-glow-border hud-corners p-1 bg-black/50 overflow-hidden">
             <iframe
-              src={`https://dexscreener.com/solana/${CA}?embed=1&theme=dark&info=0`}
+              src={`https://dexscreener.com/solana/${PAIR_ADDRESS}?embed=1&theme=dark&info=0`}
               className="w-full h-[500px] border-0"
               title="SKYNET Chart"
             />
