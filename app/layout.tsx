@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${mono.variable}`}>
-      <body className="bg-black text-white min-h-screen overflow-x-hidden">
+      <body className="bg-black text-white min-h-screen overflow-x-hidden max-w-[100vw]">
         {children}
       </body>
     </html>
