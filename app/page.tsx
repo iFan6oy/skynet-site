@@ -96,9 +96,9 @@ export default function Home() {
             REAL-TIME NETWORK ACTIVITY
           </p>
 
-          <div className="red-glow-border hud-corners p-1 bg-black/50">
+          <div className="red-glow-border hud-corners p-1 bg-black/50 overflow-hidden">
             <iframe
-              src={`https://dexscreener.com/solana/${CA}?embed=1&theme=dark`}
+              src={`https://dexscreener.com/solana/${CA}?embed=1&theme=dark&info=0`}
               className="w-full h-[500px] border-0"
               title="SKYNET Chart"
             />
