@@ -5,7 +5,7 @@ import TypewriterText from "./components/TypewriterText";
 
 const CA = "AR6Sy3h6hzFxLjNFUNuE5YApgEci6gj1eAANU24cknAV";
 const PUMP_URL = `https://pump.fun/coin/${CA}`;
-const TWITTER_URL = "https://x.com/skyabortsol";
+const TWITTER_URL = "https://x.com/SOLSKYNETAI";
 const PAIR_ADDRESS = "AwHwzsQRhhagEttkHpp46QKJeRP71sAhzHg3aJNqPkc8";
 const DEXSCREENER_URL = `https://dexscreener.com/solana/${CA}`;
 
